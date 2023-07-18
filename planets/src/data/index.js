@@ -1,3 +1,5 @@
+const axios = require("axios");
+
 const planets = axios.get("http://database:8005/planet");
 
 module.exports = {
